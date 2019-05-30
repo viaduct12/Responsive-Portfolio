@@ -131,6 +131,11 @@
       border-top: 0.3em solid #4aaaa5;
    }
 
+   .profilePic{
+      width: 200px;
+      height: 200px;
+   }
+
    #copyright{
       text-align: center;
       color: #cccccc;
@@ -175,9 +180,6 @@
 }
 
 @media screen and (max-width: 768px){
-   /* body{
-      display: none;
-   } */
 
    nav h1{
       margin-left: 2%;
@@ -195,13 +197,10 @@
       margin-left: 2%;
       height: 65vh;
    }
-
+   
 } 
 
 @media screen and (max-width: 640px){
-   /* body{
-      display: none;
-   } */
 
    nav h1{
       text-align: center;
@@ -238,7 +237,32 @@
       height: 110px;
    }
 
-   .wrapper{
-      background-color: blue;
+   #profile{
+      float: none;
    }
+
+   .profilePic{
+      width: 85vw;
+      height: 40vh;
+   }
+
+   footer{
+      width: 100vw;
+      position: initial;
+   }
+
+   .container{
+      height: 110vh;
+   }
+   
+   #pictures{
+      width: auto;
+   }
+
+   #pictures img {
+      height: 150px;
+      width: 160px;
+      margin: 20px;
+      }
+   
 }
